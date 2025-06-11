@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basics/components/button.dart';
+import 'package:flutter_basics/components/image.dart';
 import 'package:flutter_basics/components/text.dart';
 import 'package:flutter_basics/components/textfield.dart';
 import 'package:flutter_basics/layouts/column.dart';
@@ -14,6 +15,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: Scaffold(body: ButtonExample()));
+    return const MaterialApp(home: Scaffold(body: ImageExample()));
   }
 }
